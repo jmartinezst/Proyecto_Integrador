@@ -13,4 +13,4 @@ env/
 .vscode/
 
 # Bases de datos (opcional, si quieres que cada uno tenga la suya)
-# base_datos.json
+# base_datos.jsongit branch
