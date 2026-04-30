@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  chatbot:
+    build: .
+    container_name: chatbot_app
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - ./base_datos.json:/app/base_datos.json
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    stdin_open: true
+    tty: true
